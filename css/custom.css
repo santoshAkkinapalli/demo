@@ -1,0 +1,50 @@
+@import 'https://fonts.googleapis.com/css?family=Megrim|Michroma|Monoton|Varela';
+ul, ol, dl {
+    font-family: 'Varela', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    list-style-position: outside;
+}
+/* title bar settings */
+.title-bar {
+  background: #039be5;
+  color: #fefefe;
+  padding: 0.5rem;
+  }
+.offcanvasmenu{
+    height: 100vh;
+    background: #FFFFFF;
+}
+.topmenu{
+    background-color: #039be5;
+    border-top: 0 solid #5e5e5e;
+    color: #fefefe;
+    padding: 0.65rem;
+}
+.searchbox{
+    padding-top: 0.01em;
+    margin: 0;
+    border: 0px;
+}
+
+/* main page content */
+
+.main-content{
+  padding: 20PX;
+  background-color: #FFF;
+  height: 100vh;
+  
+}
+.card {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #272727;
+  border-radius: 2px; }
+ .card .content {
+    padding: 1.3rem;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px; }
+  .card .image {
+    position: relative; }
+    

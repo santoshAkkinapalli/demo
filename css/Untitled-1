@@ -1,0 +1,85 @@
+.title-bar-title {
+    -webkit-font-smoothing: antialiased;
+    font-kerning: none;
+    font-weight: 100;
+}
+
+ul,
+ol,
+dl {
+    font-family: 'Varela', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    list-style-position: outside;
+    color: #fff;
+}
+
+
+/* title bar settings */
+
+.title-bar {
+    background: #34495e;
+    color: #fefefe;
+    padding: 0.5rem;
+    border: 0px;
+}
+
+.offcanvasmenu {
+    height: 100vh;
+    background-color: #c0392b;
+}
+
+.topmenu {
+    background-color: #c0392b;
+    border-top: 0 solid #5e5e5e;
+    color: #fefefe;
+    padding: 0.65rem;
+}
+
+.searchbox {
+    padding-top: 0.01em;
+    margin: 0;
+    border: 0px;
+}
+
+
+/* main page content */
+
+.row {
+    border: 0px;
+    background-color: #ecf0f1;
+    min-width: 90rem;
+}
+
+.main-content {
+    padding: 5rem;
+    background-color:#fff;
+    margin-top: 2rem;
+    max-width: 80rem;
+
+}
+
+.card {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
+    color: #272727;
+    border-radius: 2px;
+}
+
+.card .content {
+    padding: 1.3rem;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px;
+}
+
+.card .image {
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 0.7rem 1rem;
+    line-height: 1;
+    color: white;
+}
